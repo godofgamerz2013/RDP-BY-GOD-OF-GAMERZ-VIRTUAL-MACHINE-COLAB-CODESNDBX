@@ -105,6 +105,8 @@ X-GNOME-Autostart-enabled=true""".format(link)
         os.system(f"su - {user} -c '{command}'")
         os.system("service chrome-remote-desktop start")
 
+        sudo apt install dbus-x11
+
         print(".............................................................................................................................")
         print(".....Created By The GOD OF GAMERZ...................................................................................................")
         print(".....Modified By Virtual Eman PC.............................................................................................")
@@ -139,4 +141,4 @@ except NameError as e:
 
 
 
-sudo apt install dbus-x11
+
