@@ -42,6 +42,7 @@ class CRDSetup:
         subprocess.run(['wget', 'https://dl.google.com/linux/direct/chrome-remote-desktop_current_amd64.deb'])
         subprocess.run(['dpkg', '--install', 'chrome-remote-desktop_current_amd64.deb'])
         subprocess.run(['apt', 'install', '--assume-yes', '--fix-broken'])
+        subprocess.run(["sudo", "apt", "install", "-y", "dbus-x11"])
         print("Chrome Remoted Desktop Installed !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
 
     @staticmethod
@@ -106,7 +107,7 @@ X-GNOME-Autostart-enabled=true""".format(link)
         os.system("service chrome-remote-desktop start")
 
 
-          subprocess.run(["sudo", "apt", "install", "-y", "dbus-x11"])
+         
 
        
 
