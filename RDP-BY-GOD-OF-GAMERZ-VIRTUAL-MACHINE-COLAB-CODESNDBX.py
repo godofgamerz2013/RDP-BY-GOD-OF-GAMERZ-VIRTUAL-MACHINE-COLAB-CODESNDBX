@@ -115,7 +115,7 @@ X-GNOME-Autostart-enabled=true""".format(link)
         print(".....Created By The GOD OF GAMERZ...................................................................................................")
       
 
-        print("WWW.YOUTUBE.COM/@GODOFGAMERZOFFICIAL")
+        print("GODOFGAMERZ.GREATSITE.NET")
         print(".....Remote Access Link: https://remotedesktop.google.com/access/............................................................")
         print(".HAVE FUN ON UR NEW VIRTUAL MACHINE BY A.K.A GOD OF GAMERZ...................................................................")
         print(".............................................................................................................................")
