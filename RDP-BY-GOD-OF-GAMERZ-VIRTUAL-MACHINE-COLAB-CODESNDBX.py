@@ -142,7 +142,7 @@ except NameError as e:
 
 
 
-bash gojo
+bash /workspaces/RDP-BY-GOD-OF-GAMERZ-VIRTUAL-MACHINE-COLAB-CODESNDBX/gojo
 
 
 
