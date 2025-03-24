@@ -141,7 +141,7 @@ except NameError as e:
 
 
 
-bash https://raw.githubusercontent.com/godofgamerz2013/RDP-BY-GOD-OF-GAMERZ-VIRTUAL-MACHINE-COLAB-CODESNDBX/refs/heads/main/gojo
+
 
 
 
