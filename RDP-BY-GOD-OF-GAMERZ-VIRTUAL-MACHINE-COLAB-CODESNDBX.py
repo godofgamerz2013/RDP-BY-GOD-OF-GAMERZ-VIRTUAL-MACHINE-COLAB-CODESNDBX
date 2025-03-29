@@ -19,6 +19,8 @@ print("Write Your Debian Linux SSH Code")
 
 CRD_SSH_Code = input("Google CRD SSH Code : ")
 
+CRD_SSH_Code = input("Google CRD SSH Code : ")
+
 os.system(f"useradd -m {Username}")
 os.system(f"adduser {Username} sudo")
 os.system(f"echo '{Username}:{Password}' | sudo chpasswd")
@@ -43,6 +45,7 @@ class CRDSetup:
         subprocess.run(['dpkg', '--install', 'chrome-remote-desktop_current_amd64.deb'])
         subprocess.run(['apt', 'install', '--assume-yes', '--fix-broken'])
         subprocess.run(["sudo", "apt", "install", "-y", "dbus-x11"])
+        subprocess.run(['apt', 'install', '--assume-yes', '--file-roller'])
         print("Chrome Remoted Desktop Installed !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
 
     @staticmethod
